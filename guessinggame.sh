@@ -6,7 +6,7 @@ read  response
 local_solved=1
 
 function get_file_count {
-  echo $(ls -a | wc -l)
+  echo $(ls -A | wc -l)
 }
 
 function is_a_number {
