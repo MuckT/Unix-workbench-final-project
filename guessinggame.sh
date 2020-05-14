@@ -6,7 +6,7 @@ read  response
 local_solved=1
 
 function get_file_count {
-  echo $(find -maxdepth 1 -type f | wc -l)
+  echo $(ls -a | wc -l)
 }
 
 function is_a_number {
